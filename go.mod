@@ -2,6 +2,8 @@ module github.com/OpenDiablo2/OpenDiablo2
 
 go 1.14
 
+replace github.com/OpenDiablo2/OpenDiablo2 => /your/forked/import/path
+
 require (
 	github.com/JoshVarga/blast v0.0.0-20180421040937-681c804fb9f0
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
